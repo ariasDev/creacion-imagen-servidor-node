@@ -1,0 +1,16 @@
+{
+  "name": "servidor-node-docker",
+  "version": "1.0.0",
+  "description": "Servidor de prueba de creación de imagen con docker",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "ariasDev",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
